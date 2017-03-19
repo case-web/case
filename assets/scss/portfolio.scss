@@ -1,0 +1,32 @@
+/* Блок портфолио на главной */
+body {
+  .portfolio {
+    height: 100%;
+    background-color: lighten(#e9a42d, 15%);
+    padding-top: 150px;
+    .portfolio_header {
+      text-align: right;
+      h2 {
+        font-size: $h2 - 5px;
+        text-transform: uppercase;
+        position: relative;
+        &::after {
+         position: absolute;
+          right: 0;
+          margin: 10px 0;
+        }
+      }
+      h3 {
+        font-size: $h4 - 9px;
+        color: $primary-text-color;
+        float: right;
+        width: 200px;
+        margin-top: 20px;
+        text-align: left;
+      }
+    }
+    .portfolio_body {
+
+    }
+  }
+}

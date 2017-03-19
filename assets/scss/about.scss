@@ -1,0 +1,31 @@
+/* Блок о компании на главной*/
+body {
+  .about {
+    background-color: lighten(#e9c92d, 15%);
+    height: 100%;
+    padding-top: 120px;
+    .row {
+      .header_about {
+        font-size: $h2;
+        text-transform: uppercase;
+      }
+      &.about_body {
+        justify-content: center;
+        align-items: center;
+        .text_block {
+          text-align: left;
+          p {
+            font-size: 18px;
+
+          }
+        }
+        .image_block {
+          text-align: center;
+          img {
+
+          }
+        }
+      }
+    }
+  }
+}

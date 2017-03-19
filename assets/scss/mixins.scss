@@ -1,0 +1,10 @@
+/* Классы */
+.under_line {
+  &::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 4px;
+    background-color: $accent-color;
+  }
+}
