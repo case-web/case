@@ -21,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Услуги <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/pages/services-page.php">Услуги <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Портфолио</a>
+                    <a class="nav-link" href="/pages/portfolio-page.php">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Новости</a>
+                    <a class="nav-link" href="/pages/news-page.php">Новости</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="/pages/contacts-page.php">Контакты</a>
                 </li>
             </ul>
             <ul class="list-inline my-2">
