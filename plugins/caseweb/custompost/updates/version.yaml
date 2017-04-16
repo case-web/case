@@ -1,0 +1,4 @@
+1.0.1:
+  - Run table migrations
+  - create_posts_table.php
+  - create_categories_table.php

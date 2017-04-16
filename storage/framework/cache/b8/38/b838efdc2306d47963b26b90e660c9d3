@@ -1,0 +1,9 @@
+1492315371a:1:{s:18:"site/preloader.htm";a:5:{s:8:"fileName";s:18:"site/preloader.htm";s:7:"content";s:137:"<div id="pagePreloader">
+    <div class="spinner">
+        <img src="{{ '/assets/images/svg/preloader.svg'|theme }}" />
+    </div>
+</div>";s:5:"mtime";i:1492314771;s:6:"markup";s:137:"<div id="pagePreloader">
+    <div class="spinner">
+        <img src="{{ '/assets/images/svg/preloader.svg'|theme }}" />
+    </div>
+</div>";s:4:"code";N;}}

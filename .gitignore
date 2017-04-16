@@ -1,2 +1,4 @@
-.idea/
-node_modules/
+.DS_Store
+*.log
+/vendor
+/themes/case-web/node_modules

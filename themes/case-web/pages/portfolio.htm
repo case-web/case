@@ -1,0 +1,15 @@
+title = "Портфолио"
+url = "/portfolio/:slug"
+
+layout = "default"
+[SingleProject]
+alias = "{{ :slug }}"
+==
+
+
+<div style="height: 1000px">
+    <!--заголовок-->
+{{ project.title}}
+    <!--описание-->
+{{ project.description }}
+</div>

@@ -1,0 +1,38 @@
+description = "Default layout"
+==
+
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{{ this.page.meta_description }}">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <title>{{ this.page.title }}</title>
+    <script src="{{ '/assets/libs/jquery/jQuery320.js'|theme }}"></script>
+
+
+
+    <link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css'|theme }}">
+    {% styles %}
+</head>
+<body>
+{% partial 'site/preloader' %}
+<header>
+    {% partial 'site/header' %}
+</header>
+
+<main>
+    {% page %}
+</main>
+
+{% partial 'site/footer' %}
+{% framework %}
+<script src="{{ '/assets/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+<script src="{{ '/assets/js/dist/scripts.js'|theme }}"></script>
+
+</body>
+</html>

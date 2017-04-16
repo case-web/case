@@ -1,0 +1,21 @@
+1492315273a:1:{s:13:"portfolio.htm";a:9:{s:8:"fileName";s:13:"portfolio.htm";s:7:"content";s:256:"title = "Портфолио"
+url = "/portfolio/:slug"
+
+layout = "default"
+[SingleProject]
+alias = "{{ :slug }}"
+==
+
+
+<div style="height: 1000px">
+    <!--заголовок-->
+{{ project.title}}
+    <!--описание-->
+{{ project.description }}
+</div>
+";s:5:"mtime";i:1492313676;s:6:"markup";s:138:"<div style="height: 1000px">
+    <!--заголовок-->
+{{ project.title}}
+    <!--описание-->
+{{ project.description }}
+</div>";s:4:"code";N;s:5:"title";s:18:"Портфолио";s:3:"url";s:16:"/portfolio/:slug";s:6:"layout";s:7:"default";s:13:"SingleProject";a:1:{s:5:"alias";s:11:"{{ :slug }}";}}}

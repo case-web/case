@@ -1,0 +1,20 @@
+plugin:
+    name: 'caseweb.news::lang.plugin.name'
+    description: 'caseweb.news::lang.plugin.description'
+    author: case.web
+    icon: oc-icon-coffee
+    homepage: ''
+navigation:
+    main-menu-item2:
+        label: Новости
+        url: caseweb/news/newscontolleritem
+        icon: icon-angellist
+        sideMenu:
+            side-menu-item2:
+                label: Новости
+                url: caseweb/news/newsadvandeccontroller
+                icon: icon-sheqel
+            side-menu-item:
+                label: Категории
+                url: caseweb/news/categorycontroller
+                icon: icon-shirtsinbulk

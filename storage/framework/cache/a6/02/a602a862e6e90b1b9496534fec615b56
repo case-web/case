@@ -1,0 +1,8 @@
+1492315273a:1:{s:8:"test.htm";a:9:{s:8:"fileName";s:8:"test.htm";s:7:"content";s:110:"title = "Тест"
+url = "/test/:slug"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "main"
+==";s:5:"mtime";i:1492312434;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:8:"Тест";s:3:"url";s:11:"/test/:slug";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:4:"main";}}}
