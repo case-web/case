@@ -29,7 +29,7 @@ var path = {
     src: {
         js: 'assets/js/*.js',
         img: 'assets/images/src/*/*',
-        style: 'assets/scss/common.scss'
+        style: 'assets/scss/style.scss'
     }
 };
 
@@ -80,15 +80,15 @@ gulp.task('image:build', function() {
 
 gulp.task('watch', function() {
 
-    watch([path.watch.style], function(event, cb) {
+    gulp.watch(path.src.style, function(event, cb) {
         gulp.start('style:build');
     });
 
-    watch([path.watch.js], function(event, cb) {
+    watch(path.src.js, function(event, cb) {
         gulp.start('js:build');
     });
 
-    watch([path.watch.img], function(event, cb) {
+    watch(path.src.img, function(event, cb) {
         gulp.start('image:build');
     });
 

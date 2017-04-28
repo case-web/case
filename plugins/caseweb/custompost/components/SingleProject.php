@@ -19,17 +19,6 @@ class SingleProject extends ComponentBase
     }
 
 
-    /**
-     *
-     */
-//    public function onRun()
-//    {
-//
-//       $post = $this->getCurrentPost();
-//
-//       $this->page['project'] = $post;
-//
-//    }
 
 
     /**

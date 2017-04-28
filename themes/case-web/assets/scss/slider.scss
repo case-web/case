@@ -7,10 +7,10 @@ body {
     background-image: url('../images/back2.jpg');
     background-size: cover;
     transition: all .3s;
-    -webkit-animation: AnimationName 40s ease infinite;
-    -moz-animation: AnimationName 40s ease infinite;
-    -o-animation: AnimationName 40s ease infinite;
-    animation: AnimationName 40s ease infinite;
+    //-webkit-animation: AnimationName 40s ease infinite;
+    //-moz-animation: AnimationName 40s ease infinite;
+    //-o-animation: AnimationName 40s ease infinite;
+    //animation: AnimationName 40s ease infinite;
 
     @-webkit-keyframes AnimationName {
       0%{background-position:0% 0%}

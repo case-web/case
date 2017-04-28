@@ -2,3 +2,4 @@
 *.log
 /vendor
 /themes/case-web/node_modules
+/storage

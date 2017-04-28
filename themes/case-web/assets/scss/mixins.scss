@@ -160,3 +160,28 @@
     box-shadow: 3px 2px 12px 2px rgba(0,0,0,0.29);
   }
 }
+
+@mixin flex_align($justify-content: center,$align-item: center ) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-item;
+  -webkit-align-items: $align-item;
+}
+
+// css3
+@mixin boxShadow($prop) {
+  box-shadow: $prop;
+  -webkit-box-shadow: $prop;
+  -moz-box-shadow: $prop;
+}
+
+@mixin transition($prop: all $baseTransitionDuration) {
+  transition: $prop;
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -o-transition: $prop;
+}

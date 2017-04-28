@@ -6,6 +6,14 @@ use CaseWeb\CustomPost\Models\Category;
 
 class Project extends ComponentBase
 {
+    /**
+     *
+     */
+    const BASE_PAGINATE = 10;
+
+    /**
+     * @return array
+     */
     public function componentDetails()
     {
         return [
@@ -14,18 +22,40 @@ class Project extends ComponentBase
         ];
     }
 
+    /**
+     * @return array
+     */
     public function defineProperties()
     {
         return [];
     }
 
     /**
-     * @return mixed
+     * @return Model
      */
     public function getPosts()
     {
 
         return Post::orderBy('id', 'desc')->get();
+
+    }
+
+    /**
+     * @return Model
+     */
+    public function getPostsList() {
+
+        return $this->getPostsWithPaginate(self::BASE_PAGINATE);
+
+    }
+
+    /**
+     * @param $paginateNumber
+     * @return Model
+     */
+    private function getPostsWithPaginate($paginateNumber) {
+
+        return Post::orderBy('id', 'desc')->simplePaginate($paginateNumber);
 
     }
 

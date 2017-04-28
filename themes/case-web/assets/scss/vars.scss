@@ -50,6 +50,7 @@
 }
 
 /* Цвета */
+$white: #ffffff;
 $primary-color-dark:   #512DA8;
 $primary-color:        #673AB7;
 $primary-color-light:  #D1C4E9;
@@ -58,6 +59,11 @@ $accent-color:         #FF4081;
 $primary-text-color:   #212121;
 $secondary-text-color: #757575;
 $divider-color:        #BDBDBD;
+$black: #000;
+$preloaderColor: rgba(255, 255, 255, 1);
+$baseShadow: 0 0 3px 1px #757575;
+$baseHoverShadow: 3px -6px 12px 1px #c2c2c2;
+$baseTransitionDuration: 0.3s;
 
 /* Размеры шрифтов */
 $h1: 42px;
@@ -66,3 +72,4 @@ $h3: 30px;
 $h4: 24px;
 $index_text: 26px;
 $text: 16px;
+$topMarginFromHeader: 80px;
