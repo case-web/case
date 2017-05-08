@@ -1,0 +1,81 @@
+/* Шрифты */
+@font-face {
+  src: url('../fonts/Proxima/PROXIMANOVATHIN.OTF');
+  font-family: ProximaThin;
+}
+
+@font-face {
+  src: url('../fonts/Proxima/PROXIMANOVALIGHT.OTF');
+  font-family: ProximaLight;
+}
+
+@font-face {
+  src: url('../fonts/Proxima/PROXIMANOVAREGULAR.OTF');
+  font-family: ProximaRegular;
+}
+
+@font-face {
+  src: url('../fonts/Proxima/PROXIMANOVASEMIBOLD.OTF');
+  font-family: ProximaSemiBold;
+}
+
+@font-face {
+  src: url('../fonts/Proxima/PROXIMANOVABOLD.OTF');
+  font-family: ProximaBold;
+}
+
+@font-face {
+  src: url('../fonts/Roboto/Roboto-Thin.ttf');
+  font-family: RobotoThin;
+}
+
+@font-face {
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+  font-family: RobotoLight;
+}
+
+@font-face {
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  font-family: RobotoRegular;
+}
+
+@font-face {
+  src: url('../fonts/Roboto/Roboto-Medium.ttf');
+  font-family: RobotoMedium;
+}
+
+@font-face {
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  font-family: RobotoBold;
+}
+
+/* Цвета */
+$white: #ffffff;
+$primary-color-dark:   #512DA8;
+$primary-color:        #673AB7;
+$primary-color-light:  #D1C4E9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #FF4081;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+$purpleColor: #512da8;
+$black: #000;
+$preloaderColor: rgba(255, 255, 255, 1);
+$baseShadow: 0 0 3px 1px #757575;
+$baseHoverShadow: 3px -6px 12px 1px #c2c2c2;
+$baseTransitionDuration: 0.3s;
+
+/* Размеры шрифтов */
+$h1: 42px;
+$h2: 36px;
+$h3: 30px;
+$h4: 24px;
+$index_text: 26px;
+$text: 16px;
+$topMarginFromHeader: 80px;
+
+
+// header
+$thumbHeadHeight: 30vh;
+$headerHeight: 79px;

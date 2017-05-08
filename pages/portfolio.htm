@@ -1,0 +1,37 @@
+title = "Портфолио"
+url = "/portfolio/:slug"
+
+layout = "default"
+[SingleProject]
+alias = "{{ :slug }}"
+==
+
+
+<div class="single_portfolio">
+    <div class="portfolio_header" style="background: url({{ project.attachment.path }}) no-repeat; background-size: cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio_head">
+                    <div class="item_heading">
+                        <h1>{{ project.title }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="portfolio_content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text">
+                    {% autoescape false %}
+                    <p>{{ project.description }}</p>
+                    {% endautoescape %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

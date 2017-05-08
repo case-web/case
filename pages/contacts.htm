@@ -1,0 +1,50 @@
+title = "Контакты"
+url = "/contacts"
+layout = "default"
+is_hidden = 0
+==
+<div class="contacs_page white_background">
+
+    <div class="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+        <div class="contacts_desc">
+            <p class="white_text">
+                {% content 'contact/page-desc' %}
+            </p>
+        </div>
+        <div class="page_title">
+            <h1 class="white_text">
+                {{ this.page.title }}
+            </h1>
+        </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact_info">
+                        <div class="phone_number">
+                            <h5>
+                               <i class="fa fa-phone" aria-hidden="true"></i>
+                                {% content 'contact/phone-number' %}
+                            </h5>
+                        </div>
+                        <div class="email">
+                            <p>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:{% content 'contact/email' %}" target="_blank" class="link_hover black_text">
+                                {% content 'contact/email' %}
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

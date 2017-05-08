@@ -1,0 +1,24 @@
+description = "Default layout"
+
+[staticPage]
+==
+<!DOCTYPE html>
+<html lang="ru">
+{% partial 'site/head' %}
+<body>
+{% partial 'site/preloader' %}
+<header class="clearfix">
+    {% partial 'site/header' %}
+</header>
+
+<main class="white_background">
+    {% page %}
+</main>
+
+{% partial 'site/footer' %}
+{% framework %}
+<script src="{{ '/assets/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+<script src="{{ '/assets/js/dist/scripts.js'|theme }}"></script>
+
+</body>
+</html>

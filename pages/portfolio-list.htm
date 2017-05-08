@@ -1,0 +1,60 @@
+title = "Портфолио"
+url = "/portfolio"
+layout = "default"
+is_hidden = 0
+
+[ProjectList]
+paginate = 5
+==
+<div class="portfolio_list white_background">
+    <div class="head">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page_head">
+                    <div class="page_title">
+                        <h1 class="with_bott_separate">{{ this.page.title }}</h1>
+                    </div>
+                    <div class="page_desc">
+                        {% content "portfolio-desc" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="item_list">
+        <div class="container">
+            <div class="row">
+                {% for project in projects %}
+
+                <div class="col-md-6 col-xs-12 item">
+                    <a href="{{ 'portfolio'|page({slug: project.slug}) }}" class="shadow">
+                <div class="item_thumb">
+                    <img src="{{ project.attachment.path }}" alt="{{ project.attachment.title }}"
+                         title="{{ project.attachment.title }}"/>
+                </div>
+                        <div class="item_text">
+                    <div class="item_title">
+                        <h3 class="link_hover">{{ project.title }}</h3>
+                    </div>
+                    <div class="item_desc">
+                        <p>
+                            {{ project.exp }}
+                        </p>
+                    </div>
+                        </div>
+
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="paginate">
+        {{ projects.render|raw }}
+        </div>
+    </div>
+</div>
+
+
+

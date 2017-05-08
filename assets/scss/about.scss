@@ -1,0 +1,47 @@
+/* Блок о компании на главной*/
+body {
+  .about {
+    background-color: $primary-color-dark;
+    height: auto;
+    padding: 50px;
+    position: relative;
+    a {
+      color: $primary-color-text;
+      &:hover {
+        text-decoration: none;
+      }
+      .row {
+        .header_about {
+          h2 {
+            font-size: $h4;
+            text-transform: uppercase;
+            font-family: RobotoLight;
+            &::after {
+              width: 64%;
+              height: 2px;
+            }
+          }
+        }
+        &.about_body {
+          justify-content: center;
+          align-items: center;
+          .text_block {
+            text-align: left;
+            padding-top: 20px;
+            p {
+              font-size: 18px;
+              font-family: RobotoRegular;
+            }
+          }
+          .image_block {
+            text-align: center;
+            img {
+
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

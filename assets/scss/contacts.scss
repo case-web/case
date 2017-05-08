@@ -1,0 +1,17 @@
+.contacs_page {
+  .head {
+    height: $thumbHeadHeight;
+    background: url('../images/contacts.png') no-repeat;
+    background-size: cover;
+    .contacts_desc {
+      margin: 30px 0 20px 0;
+    }
+  }
+  .content {
+    .contact_info {
+      i {
+        color: $purpleColor;
+      }
+    }
+  }
+}

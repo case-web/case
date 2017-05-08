@@ -1,0 +1,19 @@
+#pagePreloader {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: $preloaderColor;
+  font-size: 16px;
+  z-index: 1000000;
+  @include flex_align();
+  .spinner {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

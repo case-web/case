@@ -1,0 +1,24 @@
+.paginate {
+  .pager {
+    width: 250px;
+    list-style: none;
+    @include marginAlign();
+    li {
+      display: inline-block;
+      &:first-child {
+        background: url('../images/icons/left_arrow.png') no-repeat;
+        background-size: contain;
+      }
+      &:last-child {
+        background: url('../images/icons/right_arrow.png') no-repeat;
+        background-size: contain;
+      }
+      &.disabled {
+        display: none;
+      }
+      a {
+        color: $white;
+      }
+    }
+  }
+}
