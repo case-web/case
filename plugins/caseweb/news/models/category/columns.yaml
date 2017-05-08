@@ -1,4 +1,0 @@
-columns:
-    name:
-        label: Название
-        type: text

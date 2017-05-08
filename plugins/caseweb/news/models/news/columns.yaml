@@ -1,7 +1,0 @@
-columns:
-    title:
-        label: Заголовок
-        type: text
-    crated_at:
-        label: Дата
-        type: datetime
