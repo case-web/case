@@ -1,8 +1,7 @@
 /**
  * Created by Cat on 19.03.2017.
  */
-console.log('poshel nahyi');
-console.log('poshel qnahyi');
+console.log('Ничего интересного ты здесь не найдёшь.');
 $('button').mousedown(function () {
     $('button').css('box-shadow', 'none');
 });
@@ -20,7 +19,7 @@ $('button').mouseover(function () {
 $(document).ready(function() {
     window.onscroll = function () {
         if($('body').scrollTop() > 10) {
-            $('.navbar').css('background-color', '#512DA8');
+            $('.navbar').css('background-color', '#1c1c1c');
         } else {
             $('.navbar').css('background-color', 'transparent');
         }

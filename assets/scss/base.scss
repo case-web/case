@@ -1,5 +1,9 @@
 .white_background {
   background: $white;
+
+}
+.padding-top {
+  padding-top: 90px;
 }
 
 .head {
@@ -8,4 +12,9 @@
 
 .content {
   min-height: 45vh;
+}
+
+.more-z {
+  position: relative;
+  z-index: 999999;
 }

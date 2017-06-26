@@ -1,7 +1,8 @@
 /* Блок портфолио на главной */
 body {
   .portfolio {
-    height: 80%;
+    height: 80vh;
+    max-height: 80vh;
     background-image: url('../images/back4.jpg');
     padding-top: 130px;
     position: relative;
@@ -60,7 +61,7 @@ body {
       flex-wrap: wrap;
       justify-content: flex-end;
       transform: rotateX(62deg) rotateY(14deg) rotateZ(-45deg);
-      margin-top: -650px;
+      margin-top: -600px;
       margin-left: -200px;
     }
     .column {

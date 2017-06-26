@@ -1,6 +1,6 @@
 body {
   footer {
-    background-color: $primary-color-dark;
+    background-color: #1c1c1c;
     height: 50%;
     position: relative;
     box-shadow: 0px -1px 10px 0px black;
@@ -23,7 +23,7 @@ body {
         }
       }
     .copyright {
-      background-color: darken($primary-color, 25%);
+      background-color: darken(#1c1c1c, 25%);
       margin-bottom: 0;
       padding: 10px 50px;
       color: #fff;
